@@ -1,0 +1,21 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  /* --main-font-color: white;
+  --accent-color: #2196f3;
+  --fill-color: #afb1b8;
+  --dark-color: #2f303a;*/
+}
+*html {
+  box-sizing: border-box;
+}
+
+/**, *:: before, 
+*:: after {
+  box-sizing: inherit;
+}*/
+.list {
+  /*padding: 0;*/
+  margin: 0;
+  list-style-type: none;
+}

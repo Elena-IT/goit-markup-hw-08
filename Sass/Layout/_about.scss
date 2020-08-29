@@ -1,0 +1,143 @@
+.about-us-section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  .abt-us-container {
+    width: 1200px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 94px;
+    /*width: 1170px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+.about-us-sect {
+  list-style: none;
+  text-decoration: none;
+  padding-top: 87px;
+  padding-bottom: 87px;
+}
+
+.sub-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  align-items: center;
+  align-items: baseline;
+}
+.about-img {
+  list-style: none;
+  display: flex;
+}
+
+.about-image-icon {
+  list-style: none;
+  margin-right: 0px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.antenna::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  background-image: url(../images/about/antenna.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.clock::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  background-image: url(../images/about/clock.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.diagram::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  background-image: url(../images/about/diagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.tech::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  background-image: url(../images/about/Group.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image {
+  margin-top: 0;
+  margin-bottom: 55px;
+  padding-right: 96px;
+  padding-left: 96px;
+}
+
+.abt-text {
+  margin-top: 0;
+  margin-bottom: 94px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: #757575;
+  align-items: center;
+  align-items: baseline;
+}
+.no.padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
