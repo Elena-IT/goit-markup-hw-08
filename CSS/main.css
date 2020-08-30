@@ -217,9 +217,9 @@
 
 .form-field-input {
   padding-top: 11px;
-  padding-right: 17px;
+  /*padding-right: 17px;*/
   padding-bottom: 11px;
-  padding-left: 41px;
+  /*padding-left: 41px;*/
 }
 
 .contact-data-list {
@@ -233,7 +233,7 @@
 
 .form-field-textarea {
   height: 120px;
-  padding: 11px 30px;
+  /*padding: 11px 30px;*/
   resize: none;
 }
 
