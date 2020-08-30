@@ -563,7 +563,7 @@
   list-style: none;
   text-decoration: none;
   padding-top: 87px;
-  padding-bottom: 87px;
+  /*padding-bottom: 87px;*/
 }
 
 .sub-heading {
@@ -700,6 +700,10 @@
   position: relative;
 }
 
+.activity-sec {
+  padding-bottom: 90px;
+}
+
 .activity-list {
   display: flex;
   justify-content: space-between;
@@ -768,7 +772,6 @@ background-image: linear-gradient(
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background: #e5e5e5;
 }
 
 .team-list {
@@ -777,11 +780,17 @@ background-image: linear-gradient(
   justify-content: space-between;
 }
 
+.team-section {
+  background: #f5f4fa;
+  padding-top: 94px;
+}
+
 .team-list-item {
   max-width: 275px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 95px;
+  background-color: white;
 }
 
 .team-list-item:last-child {
@@ -795,6 +804,7 @@ background-image: linear-gradient(
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 42px;
 }
 
 .team-subheader {
