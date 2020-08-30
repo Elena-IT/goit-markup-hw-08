@@ -37,6 +37,11 @@
   align-items: center;
   /*justify-content: space-between;*/
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .nav-link {
   display: block;
   padding-top: 32px;
