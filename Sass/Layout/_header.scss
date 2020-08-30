@@ -237,4 +237,150 @@
   @media screen and (min-width: 1200px) {
     margin-right: 85px;
   }
+
+
+ @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+
+
+.nav-container {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  } 
+
+  @media screen and (min-width: 768px) {
+    margin-right: 84px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 305px;
+  } 
+
+.site-nav {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-link-item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 28px;
+  } }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 50px;
+  }
+
+.nav-link {
+   display: inline-block;
+
+  color: $primary-text-color; 
+
+  @media screen and (min-width: 768px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    line-height: 1.1429;
+  }
+}
+  &.current {
+    position: relative;
+    color: $accent-color;
+
+    @media screen and (max-width: 767px) {
+      padding-bottom: 12px;
+    }
+  }
+
+
+.nav-link.current::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: $accent-color;
+}
+
+.site-nav {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contact-list-item:not(:last-child) {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 10px;
+  
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 16px;
+  
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 30px;
+  } 
+
+
+.contact-data {
+  @extend %header-link;
+  display: inline-flex;
+  align-items: center;
+  color: $secondary-text-color;
+
+  
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 1.1667; }
+
+  
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 14px;
+    line-height: 1.1429;
+  } 
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 14px;
+    height: 10px;
+  } 
+
+  .contact-data:hover &,
+  .contact-data:focus & {
+    fill: $accent-color;
+  
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 10px;
+    height: 14px;
+  }
+
+.menu-button {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+ .menu-button .icon-close_24px {
+  display: none;}
+
+
+.menu-button.is-open .icon-close_24px {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu_24px {
+  display: none;
 }
