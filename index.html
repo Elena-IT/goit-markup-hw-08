@@ -15,32 +15,14 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
-      <div class="container header-container" id="menu-wrapper">
+      <div class="container header-container">
         <a href="index.html" aria-label="лого" class="logo-link">
           <svg width="141" height="28">
             <use href="./images/sprite.svg#icon-logo"></use>
           </svg>
         </a>
-        <button
-          type="button"
-          class="menu-button"
-          aria-expanded="false"
-          aria-controls="menu-wrapper"
-          data-menu-button
-        >
-          <svg width="40" height="40">
-            <use
-              class="icon-burger"
-              href="./images/sprite.svg#icon-menu_24px"
-            ></use>
 
-            <use
-              class="icon-close"
-              href="./images/sprite.svg#icon-close_24px"
-            ></use>
-          </svg>
-        </button>
-        <div class="menu-wrapper" data-menu>
+        <div class="menu-wrapper" id="menu-wrapper" data-menu>
           <nav class="nav-container">
             <ul class="site-nav list">
               <li class="nav-link-item list">
@@ -75,6 +57,25 @@
             </div>
           </nav>
         </div>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+          data-menu-button
+        >
+          <svg width="40" height="40">
+            <use
+              class="icon-burger"
+              href="./images/sprite.svg#icon-menu_24px"
+            ></use>
+
+            <use
+              class="icon-close"
+              href="./images/sprite.svg#icon-close_24px"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!--Герой-->
