@@ -26,6 +26,7 @@
           class="menu-button"
           aria-expanded="false"
           aria-controls="menu-wrapper"
+          data-menu-button
         >
           <svg width="40" height="40">
             <use
@@ -39,7 +40,7 @@
             ></use>
           </svg>
         </button>
-        <div class="menu-wrapper">
+        <div class="menu-wrapper hidden" data-menu>
           <nav class="nav-container">
             <ul class="site-nav list">
               <li class="nav-link-item list">
@@ -600,6 +601,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -545,6 +545,10 @@
   /*padding-bottom: 60px;*/
 }
 
+.menu-wrapper.is-open {
+  display: block;
+}
+
 .site-nav {
   padding-bottom: 60px;
   text-align: center;
