@@ -15,51 +15,65 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
-      <div class="container">
-        <nav class="nav-container">
-          <a href="index.html" aria-label="лого" class="logo-link">
-            <svg width="141" height="28">
-              <use href="./images/sprite.svg#icon-logo"></use>
-            </svg>
-          </a>
-          <ul class="site-nav list">
-            <li class="nav-link-item list">
-              <a class="nav-link" href="index.html">
-                <p class="nav-link-text">Студия</p>
-              </a>
-            </li>
-            <li class="nav-link-item list">
-              <a class="nav-link link current" href="portfolio.html">
-                <p class="nav-link-text link current">Портфолио</p>
-              </a>
-            </li>
-            <li class="nav-link-item list">
-              <a class="nav-link" href=" ">
-                <p class="nav-link-text">Контакты</p>
-              </a>
-            </li>
-          </ul>
-          <div class="site-nav-div">
-            <ul class="site-nav">
-              <li class="contact-list-item list">
-                <a class="contact-data" href="tel: ">
-                  <svg width="10" height="14.94" class="contact-data-icon">
-                    <use href="./images/sprite.svg#icon-smartphone"></use>
-                  </svg>
-                  +38 096 111 11 11</a
-                >
+      <div class="container header-container">
+        <a href="index.html" aria-label="лого" class="logo-link">
+          <svg width="141" height="28">
+            <use href="./images/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+        >
+          <svg width="40" height="40">
+            <use
+              class="icon-burger"
+              href="./images/sprite.svg#icon-menu_24px"
+            ></use>
+
+            <use
+              class="icon-close"
+              href="./images/sprite.svg#icon-close_24px"
+            ></use>
+          </svg>
+        </button>
+        <div class="menu-wrapper">
+          <nav class="nav-container">
+            <ul class="site-nav list">
+              <li class="nav-link-item list">
+                <a class="nav-link link" href="index.html"> Студия </a>
               </li>
-              <li class="contact-list-item list">
-                <a class="contact-data" href="mailto:info@devstudio.com">
-                  <svg width="16" height="11.12" class="contact-data-icon">
-                    <use href="./images/sprite.svg#icon-envelope"></use>
-                  </svg>
-                  info@devstudio.com</a
-                >
+              <li class="nav-link-item current list">
+                <a class="nav-link" href="portfolio.html"> Портфолио </a>
+              </li>
+              <li class="nav-link-item list">
+                <a class="nav-link" href=" "> Контакты </a>
               </li>
             </ul>
-          </div>
-        </nav>
+            <div class="site-nav-div">
+              <ul class="site-nav">
+                <li class="contact-list-item list">
+                  <a class="contact-data" href="mailto:info@devstudio.com">
+                    <svg width="16" height="11.12" class="contact-data-icon">
+                      <use href="./images/sprite.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a
+                  >
+                </li>
+                <li class="contact-list-item list">
+                  <a class="contact-data" href="tel: ">
+                    <svg width="10" height="14.94" class="contact-data-icon">
+                      <use href="./images/sprite.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
 
