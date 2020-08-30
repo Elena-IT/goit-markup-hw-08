@@ -31,8 +31,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  align-items: center;
-  align-items: baseline;
 }
 .about-img {
   list-style: none;
@@ -41,7 +39,7 @@
 
 .about-image-icon {
   list-style: none;
-  margin-right: 0px;
+  margin-right: 0;
   &:last-child {
     margin-right: 0;
   }
