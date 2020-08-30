@@ -330,8 +330,7 @@
 
 
 .contact-data {
-  @extend %header-link;
-  display: inline-flex;
+   display: inline-flex;
   align-items: center;
   color: $secondary-text-color;
 
