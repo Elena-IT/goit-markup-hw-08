@@ -21,7 +21,25 @@
             <use href="./images/sprite.svg#icon-logo"></use>
           </svg>
         </a>
+        <button
+          class="menu-button button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+          data-menu-button
+        >
+          <svg width="40" height="40">
+            <use
+              class="icon-burger"
+              href="./images/sprite.svg#icon-menu_24px"
+            ></use>
 
+            <use
+              class="icon-close"
+              href="./images/sprite.svg#icon-close_24px"
+            ></use>
+          </svg>
+        </button>
         <div class="menu-wrapper" id="menu-wrapper" data-menu>
           <nav class="nav-container">
             <ul class="site-nav list">
@@ -57,25 +75,6 @@
             </div>
           </nav>
         </div>
-        <button
-          type="button"
-          class="menu-button"
-          aria-expanded="false"
-          aria-controls="menu-wrapper"
-          data-menu-button
-        >
-          <svg width="40" height="40">
-            <use
-              class="icon-burger"
-              href="./images/sprite.svg#icon-menu_24px"
-            ></use>
-
-            <use
-              class="icon-close"
-              href="./images/sprite.svg#icon-close_24px"
-            ></use>
-          </svg>
-        </button>
       </div>
     </header>
     <!--Герой--
@@ -602,8 +601,7 @@
         </div>
       </div>
     </footer>-->
-
-    <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
